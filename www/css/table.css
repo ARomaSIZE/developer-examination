@@ -1,0 +1,49 @@
+/* Style for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table header */
+.table thead th {
+  background-color: rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+/* Style for table rows */
+.table tbody td {
+  padding: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+/* Style for alternate rows */
+.table tbody tr:nth-child(even) {
+  background-color: rgb(249, 249, 249);
+}
+
+/* Style for the "View Details" and "Update" buttons */
+.view-details-button {
+  padding: 5px 10px;
+  background-color: rgb(78, 172, 250);
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.update-item {
+  padding: 5px 10px;
+  background-color: rgb(224, 107, 11);
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+/* Hover effect for buttons */
+.btn:hover {
+  opacity: 0.8;
+}
